@@ -1,0 +1,89 @@
+
+.modal-dialog {
+  background-color: transparent;
+}
+.modal-content {
+  height: 400px !important;
+  padding-block: 0px !important;
+  background-color: white;
+}
+
+.modal-backdrop {
+  display: none;
+  
+};
+
+.signinTogglePart {
+  margin-left: 100px;
+}
+
+.sigup-modal .modal-dialog {
+  height: 520px;
+}
+
+.sigup-modal .modal-body {
+  height: 300px;
+}
+.sigup-modal .signup {
+  height: 400px;
+}
+.signup-modal-content {
+  /* border: 2px solid rgb(29, 203, 5); */
+  height: 600px;
+}
+
+.modal-custom-header {
+  position: relative;
+  /* max-width: 100px; */
+}
+
+.hoverIcon {
+  position: absolute;
+  top: 0;
+  right: 1px;
+  /* border:1px solid red; */
+  width: 45px;
+  height: 45px;
+  padding: 13px;
+}
+
+.login {
+  /* border: 1px solid rgb(239, 237, 237); */
+  border-radius: 20px;
+  width: 498px;
+  height: 600px;
+  /* margin: auto; */
+  /* border: 1px solid red; */
+}
+
+.login-image {
+  width: 498px;
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+}
+
+.login-button {
+  background-color: rgb(230, 228, 228);
+}
+
+.error {
+  color: red;
+  font-size: 10px;
+  height: 15px;
+}
+
+
+
+ .dropdown button,
+ .menu-links a {
+  color: rgb(1, 1, 94);
+  font-size: 11px;
+  letter-spacing: 0.3;
+  text-transform: uppercase;
+}
+
+.dropdown:hover {
+  transform: scale(0.97);
+  box-shadow: 2px 2px 4px rgba(126, 122, 122, 0.15);
+  transition: box-shadow 0.1 ease-in-out;
+}

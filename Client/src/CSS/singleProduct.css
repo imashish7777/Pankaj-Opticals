@@ -1,0 +1,39 @@
+
+.image {
+  height: 350px;
+  width: 100%;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  
+}
+
+.product-details-section {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.details {
+  display: flex;
+  flex-direction: column;
+}
+.price {
+  color: #07c498;
+}
+.addtocart {
+  font-size: 12px;
+  background-color:var(--color-button);;
+  height: 35px;
+  width: 100%;
+  border-radius: 7px;
+  margin-top: 10px;
+  color: white;
+
+}
+.btn:hover{
+  background-color: bisque;
+}
+
+.table {
+  font-size: 10px;
+}
